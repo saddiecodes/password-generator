@@ -132,7 +132,35 @@ return randomElement;
 // Function to generate password with user input
 function generatePassword() {
 var options = getPasswordOptions();
+var finalResult = []; 
+var randomCharacters = [];
+var guaranteedCharacters = [];
 
+if(options.includeSpecial){
+  randomCharacters = randomCharacters.concat(specialCharacters);
+  guaranteedCharacters.push(getRandom(specialCharacters)); 
+}
+// these options are not working --check
+if(options.includeUpper){
+  randomCharacters = randomCharacters.concat(specialCharacters);
+  guaranteedCharacters.push(getRandom(specialCharacters));
+}
+if(options.includeLower){
+  randomCharacters = randomCharacters.concat(specialCharacters);
+  guaranteedCharacters.push(getRandom(specialCharacters));
+}
+if(options.includeNumbers){
+  randomCharacters = randomCharacters.concat(specialCharacters);
+  guaranteedCharacters.push(getRandom(specialCharacters));
+}
+for(var i=0; i < options.length ; i++) {
+  var possibleCharacter = getRandom(randomCharacters);
+  finalResult.push(possibleCharacter);
+}
+for(var i=0;i<guaranteedCharacters.length;i++){
+  finalResult[i]=guaranteedCharacters[i]
+}
+return finalResult.join("");
 }
 
 // Get references to the #generate element
