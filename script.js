@@ -142,16 +142,16 @@ if(options.includeSpecial){
 }
 // these options are not working --check
 if(options.includeUpper){
-  randomCharacters = randomCharacters.concat(specialCharacters);
-  guaranteedCharacters.push(getRandom(specialCharacters));
+  randomCharacters = randomCharacters.concat(upperCasedCharacters);
+  guaranteedCharacters.push(getRandom(upperCasedCharacters));
 }
 if(options.includeLower){
-  randomCharacters = randomCharacters.concat(specialCharacters);
-  guaranteedCharacters.push(getRandom(specialCharacters));
+  randomCharacters = randomCharacters.concat(lowerCasedCharacters);
+  guaranteedCharacters.push(getRandom(lowerCasedCharacters));
 }
 if(options.includeNumbers){
-  randomCharacters = randomCharacters.concat(specialCharacters);
-  guaranteedCharacters.push(getRandom(specialCharacters));
+  randomCharacters = randomCharacters.concat(numericCharacters);
+  guaranteedCharacters.push(getRandom(numericCharacters));
 }
 for(var i=0; i < options.length ; i++) {
   var possibleCharacter = getRandom(randomCharacters);
