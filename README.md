@@ -1,8 +1,9 @@
-# password-generator
+## Password Generator
 ## Introduction
 Welcome to the Password Generator application! This simple yet powerful tool helps you create secure and unique passwords tailored to your specific criteria. The application prompts you for various password criteria and generates a strong password for you.
 
-##Features
+## Features
+
 # Password Length:
 
 Choose a length for your password between 8 and 128 characters.
