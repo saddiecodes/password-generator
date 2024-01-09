@@ -27,11 +27,14 @@ Click the "Generate Password" button to create a secure password based on your c
 ## Display:
 
 The generated password is displayed either in an alert or on the page, depending on your preference.
-How to Use
-Open the Password Generator application.
-Follow the prompts to specify your desired password criteria.
-Click the "Generate Password" button.
-View your secure password either in an alert or on the page.
+
+How to Use:
+
+- Open the Password Generator application.
+
+- Follow the prompts to specify your desired password criteria.
+- Click the "Generate Password" button.
+- View your secure password either in an alert or on the page.
 
 ## Examples
 If you choose a length of 12 characters and select lowercase and numeric, the generated password might look like: a7b8c2e4f9h0.
