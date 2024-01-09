@@ -15,6 +15,7 @@ Lowercase
 Uppercase
 Numeric
 Special characters ($@%&*, etc.)
+
 Validation:
 
 The application validates your input to ensure it meets the specified criteria.
