@@ -4,7 +4,7 @@ Welcome to the Password Generator application! This simple yet powerful tool hel
 
 ## Features
 
-# Password Length:
+## Password Length:
 
 Choose a length for your password between 8 and 128 characters.
 
